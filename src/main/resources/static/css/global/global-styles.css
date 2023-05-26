@@ -1,0 +1,32 @@
+/**
+ * GLOBAL STYLES
+ * Low-specificity, global styles that apply to the whole project.
+ */
+
+html,
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    max-width: 70em;
+    min-height: 100dvh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}

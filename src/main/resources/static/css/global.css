@@ -1,0 +1,13 @@
+/* Global */
+@import 'global/fonts.css';
+@import 'global/variables.css';
+@import 'global/global-styles.css';
+
+/* Blocks */
+@import 'blocks/footer.css';
+@import 'blocks/intro.css';
+@import 'blocks/mission.css';
+
+/* Compositions */
+@import 'compositions/center.css';
+

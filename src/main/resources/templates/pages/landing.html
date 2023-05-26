@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout.html}">
+
+<head>
+    <title>Welcome!</title>
+</head>
+
+<body>
+    <th:block layout:fragment="content">
+        <section id="intro">
+            <hgroup>
+                <h1>Climate Pulse</h1>
+                <h2>A web application to explore temperature data with precision & ease.</h2>
+            </hgroup>
+            <a href="#" role="button">Explore</a>
+            <a href="/test" role="button" class="secondary">Go to Test Page</a>
+        </section>
+    </th:block>
+</body>
+
+</html>

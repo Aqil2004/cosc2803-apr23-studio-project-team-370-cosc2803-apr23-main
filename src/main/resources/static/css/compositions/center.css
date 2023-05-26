@@ -1,0 +1,6 @@
+.center {
+    box-sizing: content-box;
+    margin-inline: auto;
+    max-inline-size: 50ch;
+    padding-inline: 1em;
+}
